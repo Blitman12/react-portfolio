@@ -1,6 +1,7 @@
 import React from 'react'
 import CustomNav from './components/Nav/Nav'
 import Projects from './components/Projects/Projects'
+import Footer from './components/Footer/Footer'
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 
 const darkTheme = createTheme({
@@ -23,6 +24,7 @@ function App() {
         <main>
           <Projects></Projects>
         </main>
+        <Footer />
       </ThemeProvider>
     </div>
   );

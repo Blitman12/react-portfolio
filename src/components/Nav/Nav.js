@@ -12,7 +12,7 @@ export default function CustomNav() {
                     <AppBar position="static">
                         <Toolbar>
                             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                                <Button color="inherit">Bradley Litman</Button>
+                                Bradley Litman
                             </Typography>
                             <Button color="inherit">About</Button>
                             <Button color="inherit">Portfolio</Button>
