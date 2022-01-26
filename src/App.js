@@ -3,6 +3,7 @@ import CustomNav from './components/Nav/Nav'
 import Projects from './components/Projects/Projects'
 import Footer from './components/Footer/Footer'
 import { ThemeProvider, createTheme } from '@mui/material/styles';
+import Contact from './components/Contact/Contact';
 
 const darkTheme = createTheme({
   palette: {
@@ -23,6 +24,7 @@ function App() {
         </header>
         <main>
           <Projects></Projects>
+          <Contact></Contact>
         </main>
         <Footer />
       </ThemeProvider>
