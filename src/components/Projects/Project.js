@@ -9,7 +9,7 @@ import Typography from '@mui/material/Typography';
 export default function Project(props) {
     const { title, image, githubLink, deployedLink, description } = props;
     return (
-        <Card sx={{ maxWidth: 360 }} className="custom-card">
+        <Card sx={{ maxWidth: 500 }} className="custom-card">
             <CardMedia
                 component="img"
                 alt="green iguana"

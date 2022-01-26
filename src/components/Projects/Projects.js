@@ -48,21 +48,24 @@ const projects = [
 
 export default function Projects() {
     return (
-        <div className="card-container">
-            {projects.map(project => {
-                return (
-                    <Project
-                        title={project.title}
-                        image={project.image}
-                        description={project.description}
-                        githubLink={project.githubLink}
-                        deployedLink={project.deployedLink}
-                        key={project.title}
-                    >
-                    </Project>
-                )
-            })}
-        </div>
+        <>
+            <h1 className="titles">Projects</h1>
+            <div className="card-container">
+                {projects.map(project => {
+                    return (
+                        <Project
+                            title={project.title}
+                            image={project.image}
+                            description={project.description}
+                            githubLink={project.githubLink}
+                            deployedLink={project.deployedLink}
+                            key={project.title}
+                        >
+                        </Project>
+                    )
+                })}
+            </div>
+        </>
     )
 }
 
