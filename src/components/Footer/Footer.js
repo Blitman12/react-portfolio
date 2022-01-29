@@ -18,9 +18,9 @@ export default function Footer() {
     return (
         <BottomNavigation className={classes.footer}>
             <CssBaseline />
-            <BottomNavigationAction icon={<GitHubIcon />} href="https://github.com/Blitman12" target="_blank"/>
-            <BottomNavigationAction icon={<LinkedInIcon />}  href="https://www.linkedin.com/in/bradleylitman/" target="_blank"/>
-            <BottomNavigationAction icon={<FacebookIcon />}  href="https://www.facebook.com/brad.litman" target="_blank"/>
+            <BottomNavigationAction icon={<GitHubIcon />} href="https://github.com/Blitman12" target="_blank" />
+            <BottomNavigationAction icon={<LinkedInIcon />} href="https://www.linkedin.com/in/bradleylitman/" target="_blank" />
+            <BottomNavigationAction icon={<FacebookIcon />} href="https://www.facebook.com/brad.litman" target="_blank" />
         </BottomNavigation>
     )
 }

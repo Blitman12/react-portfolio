@@ -24,7 +24,8 @@ const useStyles = makeStyles({
     bio: {
         textAlign: 'center',
         width: '40%',
-        margin: 'auto'
+        margin: 'auto',
+        marginBottom: '25px'
     },
     titles: {
         color: 'aliceblue',

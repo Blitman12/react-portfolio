@@ -52,6 +52,7 @@ const useStyles = makeStyles({
         display: 'flex',
         flexWrap: 'wrap',
         justifyContent: 'center',
+        marginBottom: '25px'
     },
     titles: {
         color: 'aliceblue',
