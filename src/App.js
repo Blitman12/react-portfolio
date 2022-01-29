@@ -17,18 +17,16 @@ const darkTheme = createTheme({
 
 function App() {
   return (
-    <div>
-      <ThemeProvider theme={darkTheme}>
-        <header>
-          <CustomNav></CustomNav>
-        </header>
-        <main>
-          <Projects></Projects>
-          <Contact></Contact>
-        </main>
-        <Footer />
-      </ThemeProvider>
-    </div>
+    <ThemeProvider theme={darkTheme}>
+      <header>
+        <CustomNav></CustomNav>
+      </header>
+      <main>
+        <Projects></Projects>
+        <Contact></Contact>
+      </main>
+      <Footer />
+    </ThemeProvider>
   );
 }
 
