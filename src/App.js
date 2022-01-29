@@ -10,23 +10,23 @@ const darkTheme = createTheme({
     mode: 'dark',
     primary: {
       main: '#1976d2',
-    },
+    }
   },
 });
 
 
 function App() {
   return (
-    <ThemeProvider theme={darkTheme}>
-      <header>
-        <CustomNav></CustomNav>
-      </header>
-      <main>
-        <Projects></Projects>
-        <Contact></Contact>
-      </main>
-      <Footer />
-    </ThemeProvider>
+      <ThemeProvider theme={darkTheme}>
+        <header>
+          <CustomNav></CustomNav>
+        </header>
+        <main>
+          <Projects></Projects>
+          <Contact></Contact>
+        </main>
+        <Footer />
+      </ThemeProvider>
   );
 }
 

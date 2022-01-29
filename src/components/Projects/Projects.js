@@ -1,3 +1,4 @@
+import { makeStyles } from '@mui/styles';
 import React from 'react'
 import Project from './Project';
 
@@ -46,11 +47,26 @@ const projects = [
     }
 ]
 
+const useStyles = makeStyles({
+    cardContainer: {
+        display: 'flex',
+        flexWrap: 'wrap',
+        justifyContent: 'center',
+    },
+    titles: {
+        color: 'aliceblue',
+        textAlign: 'center',
+        fontSize: '50px'
+    }
+});
+
 export default function Projects() {
+    const classes = useStyles();
+
     return (
         <>
-            <h1 className="titles">Projects</h1>
-            <div className="card-container">
+            <h1 className={classes.titles}>Projects</h1>
+            <div className={classes.cardContainer}>
                 {projects.map(project => {
                     return (
                         <Project
