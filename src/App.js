@@ -4,6 +4,7 @@ import Projects from './components/Projects/Projects'
 import Footer from './components/Footer/Footer'
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import Contact from './components/Contact/Contact';
+import About from './components/About/About'
 
 const darkTheme = createTheme({
   palette: {
@@ -22,6 +23,7 @@ function App() {
           <CustomNav></CustomNav>
         </header>
         <main>
+          <About></About>
           <Projects></Projects>
           <Contact></Contact>
         </main>
