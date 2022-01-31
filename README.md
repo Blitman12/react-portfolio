@@ -15,6 +15,7 @@ Clone the repo, install dependencies and then run "npm start" to initialize the 
 
 ## Usage
 Clone the repo, download the dependencies and then run the server/node files.
+[Link](https://blitman12.github.io/react-portfolio/)
 ![screenshot](screenshot.JPG)
 
 
