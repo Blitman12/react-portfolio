@@ -55,13 +55,13 @@ export default function About() {
                     </div>
                     <div className={classes.catContainer}>
                         <Avatar
-                            alt="Brad Litman"
+                            alt="ichabod cat"
                             src={ichabod}
                             sx={{ width: 120, height: 120 }}
                             style={{ marginRight: '20px' }}
                         />
                         <Avatar
-                            alt="Brad Litman"
+                            alt="yui cat"
                             src={yui}
                             sx={{ width: 120, height: 120 }}
                         />
