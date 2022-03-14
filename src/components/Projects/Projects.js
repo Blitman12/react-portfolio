@@ -4,6 +4,13 @@ import Project from './Project';
 
 const projects = [
     {
+        title: 'RenDATEvous',
+        image: 'rendatevous.png',
+        description: 'MERN Stack with Apollo to find, save and rate Date ideas',
+        githubLink: 'https://github.com/Blitman12/ren-date-vous',
+        deployedLink: 'https://rendatevous.herokuapp.com/'
+    },
+    {
         title: 'Baby Aid',
         image: 'baby-aid.png',
         description: 'Full Stack application using Sequelize and Node/Express. Allows parents to create a secure account and ask parent related questions and get answers',
@@ -37,13 +44,6 @@ const projects = [
         description: 'Quick way to find a five day forecast in any searched city. Searched cities are saved to local storage.',
         githubLink: 'https://github.com/Blitman12/Weather-Application',
         deployedLink: 'https://blitman12.github.io/Weather-Application/'
-    },
-    {
-        title: 'Password Generator',
-        image: 'password-generator.jpeg',
-        description: 'Fast way to develop a custom password based off of user selected parameters',
-        githubLink: 'https://github.com/Blitman12/Password-Generator',
-        deployedLink: 'https://blitman12.github.io/Password-Generator/'
     }
 ]
 

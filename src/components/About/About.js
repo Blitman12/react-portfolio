@@ -73,7 +73,7 @@ export default function About() {
                         <li>JS, CSS, HTML</li>
                         <li>Node, Express</li>
                         <li>React, Handlebars</li>
-                        <li>SQL, Sequelize, MongoDB, Mongoose</li>
+                        <li>SQL, Sequelize, MongoDB, Mongoose, Apollo</li>
                         <li>Bootstrap, UI Kit, Material UI</li>
                     </ul>
                 </div>
